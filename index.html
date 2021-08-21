@@ -5,13 +5,1651 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>project</title>
-  <link rel="stylesheet" href="css/normalize-mini.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="overflow-hidden">
   
+  <div class="">
+    <div class="row no-gutters w-100 h-100 shadow-sm overflow-hidden">
+      <div class="col-md-5 col-lg-3 position-relative bg-white">
+        <div class="d-flex align-items-center py-2 w-100">
+          <button type="button" class="btn p-0 m-2" data-toggle="modal" data-target="#hamburger">
+            <img class="d-block" src="img/hamburger.svg" alt="hamburger-menu" width="25" height="20">
+          </button>
+          <form class="w-100" action="https://echo.htmlacademy.ru" method="GET">
+          <input id="search-input" class="form-control bg-light border-0 p-2" type="search" name="search" placeholder="Search" >
+          </form>
+          <button type="button" class="btn p-0 m-2" data-toggle="modal" data-target="#lock">
+            <img class="d-block" src="img/lock.svg" alt="lock-menu" width="25" height="20">
+          </button>
+
+          <div class="modal fade p-0 h-100  overflow-hidden" id="hamburger" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog style-modal m-0  rounded-0">
+              <div class="modal-content rounded-0">
+                <div class="modal-body p-0 ">
+                  <div class="p-4 bg-info">
+                    <div class="d-flex justify-content-between w-100 mb-4">
+                      <img class="rounded-pill " src="img/muhammadjavohir.jpg" alt="user" width="60" height="60">
+                      <a class="saved-massage rounded-pill" href="#seved-massage"></a>
+                    </div>
+                    <div class="">
+                      <a class="btn d-flex align-items-center justify-content-between text-white p-0" data-toggle="collapse" href="#new-account" aria-expanded="false">
+                        <div class="d-flex flex-column align-items-start">
+                          <p class="mb-0 font-weight-bold">Muhammadjavohir</p>
+                          <span>+998 97 7777777</span>
+                        </div>
+                        <img src="img/arrow.svg" alt="arrow" width="40" height="30">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="overflow-auto d-flex flex-column justify-content-between" style="height: 80vh;">
+                    <div class="">
+                      <div class="collapse" id="new-account">
+                        <div class="card card-body border-0 border-bottom p-4">
+                          <a class="nav-xxl nav-link active rounded-0 w-100 p-0 mb-3" data-toggle="pill" href="#pills-home" aria-controls="pills-home" aria-selected="true">
+                            <div class="media align-items-center">
+                              <div class="position-relative">
+                                <img src="img/muhammadjavohir.jpg" class="rounded-pill mr-3" alt="mayoq hub" width="50" height="50">
+                                <span class="p-2 rounded-pill bg-info position-absolute" style="bottom: 0; right: 18px;"></span>
+                              </div>
+                              <div class="media-body d-flex align-items-center justify-content-between">
+                                <h5 class="text-dark mb-0">Muhammadjavohir</h5>
+                                <span class="rounded-pill p-1 h6 bg-secondary text-white mb-0">+99</span>
+                              </div>
+                            </div>
+                          </a>
+                          <a class="nav-xxl nav-link active rounded-0 w-100 p-0" data-toggle="pill" href="#pills-home" aria-controls="pills-home" aria-selected="true">
+                            <div class="media align-items-center">
+                              <div class="">
+                                <img src="img/account.svg" class="rounded-pill mr-3" alt="mayoq hub" width="50" height="50">
+                              </div>
+                              <div class="media-body d-flex align-items-center justify-content-between">
+                                <h5 class="text-dark mb-0">Add Account</h5>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="p-4">
+                        <a class="d-flex align-items-center text-decoration-none mb-3" href="#">
+                          <img class="mr-3" src="img/group.svg" alt="new group" width="40" height="40">
+                          <h5 class="mb-0 text-dark">New Group</h5>
+                        </a>
+                        <a class="d-flex align-items-center text-decoration-none mb-3" href="#">
+                          <img class="mr-3" src="img/group.svg" alt="new group" width="40" height="40">
+                          <h5 class="mb-0 text-dark">New Channel</h5>
+                        </a>
+                        <a class="d-flex align-items-center text-decoration-none mb-3" href="#">
+                          <img class="mr-3" src="img/person.svg" alt="new group" width="40" height="40">
+                          <h5 class="mb-0 text-dark">Contacts</h5>
+                        </a>
+                        <a class="d-flex align-items-center text-decoration-none mb-3" href="#">
+                          <img class="mr-3" src="img/call.svg" alt="new group" width="40" height="40">
+                          <h5 class="mb-0 text-dark">Calls</h5>
+                        </a>
+                        <a class="d-flex align-items-center text-decoration-none mb-3" href="#">
+                          <img class="mr-3" src="img/settings.svg" alt="new group" width="40" height="40">
+                          <h5 class="mb-0 text-dark">Settings</h5>
+                        </a>
+                        <a class="d-flex align-items-center text-decoration-none justify-content-between" href="#">
+                          <label class="d-flex align-items-center justify-content-between w-100" for="forr">
+                            <span class="d-flex align-items-center">
+                              <img class="mr-3" src="img/mode.svg" alt="new group" width="40" height="40">
+                              <p class="mb-0 text-dark h5">Night Mode</p>
+                            </span>
+                            <span class="custom-control custom-switch">
+                              <input type="checkbox" class="custom-control-input" id="forr">
+                              <label class="custom-control-label" for="forr" ></label>
+                            </span>
+                          </label>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="p-4 d-flex flex-column">
+                      <a class="font-weight-bold text-secondary mb-1" href="https://telegram.com">Telegram Desktop</a>
+                      <a class="text-secondary" href="#">Version 2.6.1 - About</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade bg-white" id="lock" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog mt-5" style="width: 350px;">
+              <div class="modal-content border-0">
+                <div class="modal-body border-0 d-flex flex-column align-items-center w-100">
+                  <h4 class="mb-4">Enter your local passcode</h4>
+                  <form class="w-100 mb-3" action="https://echo.htmlacademy.ru" method="GET">
+                    <input class="form-control bg-light border-0 p-0 bg-white mb-4" type="text" name="search" placeholder="Yuor passcode" required>
+                    <button class="btn btn-primary w-100 py-3 text-white font-weight-bold" type="submit">Submit</button>
+                    </form>
+                    <a class="text-decoration-none text-primary" href="#">Log out</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="overflow-auto" style="height: 93vh;">
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-xxl nav-link active rounded-0 p-2 w-100" id="seved-massage" data-toggle="pill" href="#pills-home"aria-controls="pills-home" aria-selected="true">
+                <div class="media align-items-center">
+                  <span class="p-2 bg-info mr-2 rounded-pill"> <img src="img/massage.svg" alt="seved massage" width="35" height="35"></span>
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mb-1 w-100">
+                      <h5 class="trans mb-0 h6 font-weight-bold text-truncate d-flex align-items-center">Save Massage</h5>
+                      <time class="times flex-shrink-0" datetime="9:30">9:30 AM</time>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <p class=" trans d-block mb-0 h64 text-truncate">Massage</p>
+                      <span class="sms px-1 rounded-pill h6 mb-0"></span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-xxl nav-link rounded-0 p-2 w-100" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+                <div class="media align-items-center">
+                  <img src="img/mayoq-hub.jpg" class="rounded-pill mr-2" alt="mayoq hub" width="50" height="50">
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mb-1 w-100">
+                      <h5 class="trans mb-0 h6 font-weight-bold text-truncate d-flex align-items-center"><img class="mr-2" src="img/group.svg" alt="group" width="20" height="20"> Mayoq</h5>
+                      <time class="times flex-shrink-0" datetime="9:30">9:30 AM</time>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <p class=" trans d-block mb-0 h64 text-truncate">GIF</p>
+                      <span class="sms px-1 rounded-pill h6 mb-0">53</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-xxl nav-link rounded-0 p-2 w-100" data-toggle="pill" href="#pills-home" aria-controls="pills-home" aria-selected="true">
+                <div class="media align-items-center">
+                  <img src="img/mayoq-hub.jpg" class="rounded-pill mr-2" alt="mayoq hub" width="50" height="50">
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mb-1 w-100">
+                      <h5 class="trans mb-0 h6 font-weight-bold text-truncate d-flex align-items-center"><img class="mr-2" src="img/group.svg" alt="group" width="20" height="20"> Mayoq</h5>
+                      <time class="times flex-shrink-0" datetime="9:30">9:30 AM</time>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <p class=" trans d-block mb-0 h64 text-truncate">GIF</p>
+                      <span class="sms px-1 rounded-pill h6 mb-0">53</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-xxl nav-link rounded-0 p-2 w-100" data-toggle="pill" href="#pills-home" aria-controls="pills-home" aria-selected="true">
+                <div class="media align-items-center">
+                  <img src="img/mayoq-hub.jpg" class="rounded-pill mr-2" alt="mayoq hub" width="50" height="50">
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mb-1 w-100">
+                      <h5 class="trans mb-0 h6 font-weight-bold text-truncate d-flex align-items-center"><img class="mr-2" src="img/group.svg" alt="group" width="20" height="20"> Mayoq</h5>
+                      <time class="times flex-shrink-0" datetime="9:30">9:30 AM</time>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <p class=" trans d-block mb-0 h64 text-truncate">GIF</p>
+                      <span class="sms px-1 rounded-pill h6 mb-0">53</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-xxl nav-link rounded-0 p-2 w-100" data-toggle="pill" href="#pills-home" aria-controls="pills-home" aria-selected="true">
+                <div class="media align-items-center">
+                  <img src="img/mayoq-hub.jpg" class="rounded-pill mr-2" alt="mayoq hub" width="50" height="50">
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mb-1 w-100">
+                      <h5 class="trans mb-0 h6 font-weight-bold text-truncate d-flex align-items-center"><img class="mr-2" src="img/group.svg" alt="group" width="20" height="20"> Mayoq</h5>
+                      <time class="times flex-shrink-0" datetime="9:30">9:30 AM</time>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <p class=" trans d-block mb-0 h64 text-truncate">GIF</p>
+                      <span class="sms px-1 rounded-pill h6 mb-0">53</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-xxl nav-link rounded-0 p-2 w-100" data-toggle="pill" href="#pills-home" aria-controls="pills-home" aria-selected="true">
+                <div class="media align-items-center">
+                  <img src="img/mayoq-hub.jpg" class="rounded-pill mr-2" alt="mayoq hub" width="50" height="50">
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mb-1 w-100">
+                      <h5 class="trans mb-0 h6 font-weight-bold text-truncate d-flex align-items-center"><img class="mr-2" src="img/group.svg" alt="group" width="20" height="20"> Mayoq</h5>
+                      <time class="times flex-shrink-0" datetime="9:30">9:30 AM</time>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <p class=" trans d-block mb-0 h64 text-truncate">GIF</p>
+                      <span class="sms px-1 rounded-pill h6 mb-0">53</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-xxl nav-link rounded-0 p-2 w-100" data-toggle="pill" href="#pills-home" aria-controls="pills-home" aria-selected="true">
+                <div class="media align-items-center">
+                  <img src="img/mayoq-hub.jpg" class="rounded-pill mr-2" alt="mayoq hub" width="50" height="50">
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mb-1 w-100">
+                      <h5 class="trans mb-0 h6 font-weight-bold text-truncate d-flex align-items-center"><img class="mr-2" src="img/group.svg" alt="group" width="20" height="20"> Mayoq</h5>
+                      <time class="times flex-shrink-0" datetime="9:30">9:30 AM</time>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <p class=" trans d-block mb-0 h64 text-truncate">GIF</p>
+                      <span class="sms px-1 rounded-pill h6 mb-0">53</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-xxl nav-link rounded-0 p-2 w-100" data-toggle="pill" href="#pills-home" aria-controls="pills-home" aria-selected="true">
+                <div class="media align-items-center">
+                  <img src="img/mayoq-hub.jpg" class="rounded-pill mr-2" alt="mayoq hub" width="50" height="50">
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mb-1 w-100">
+                      <h5 class="trans mb-0 h6 font-weight-bold text-truncate d-flex align-items-center"><img class="mr-2" src="img/group.svg" alt="group" width="20" height="20"> Mayoq</h5>
+                      <time class="times flex-shrink-0" datetime="9:30">9:30 AM</time>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <p class=" trans d-block mb-0 h64 text-truncate">GIF</p>
+                      <span class="sms px-1 rounded-pill h6 mb-0">53</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-xxl nav-link rounded-0 p-2 w-100" data-toggle="pill" href="#pills-home" aria-controls="pills-home" aria-selected="true">
+                <div class="media align-items-center">
+                  <img src="img/mayoq-hub.jpg" class="rounded-pill mr-2" alt="mayoq hub" width="50" height="50">
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mb-1 w-100">
+                      <h5 class="trans mb-0 h6 font-weight-bold text-truncate d-flex align-items-center"><img class="mr-2" src="img/group.svg" alt="group" width="20" height="20"> Mayoq</h5>
+                      <time class="times flex-shrink-0" datetime="9:30">9:30 AM</time>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <p class=" trans d-block mb-0 h64 text-truncate">GIF</p>
+                      <span class="sms px-1 rounded-pill h6 mb-0">53</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-xxl nav-link rounded-0 p-2 w-100" data-toggle="pill" href="#pills-home" aria-controls="pills-home" aria-selected="true">
+                <div class="media align-items-center">
+                  <img src="img/mayoq-hub.jpg" class="rounded-pill mr-2" alt="mayoq hub" width="50" height="50">
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mb-1 w-100">
+                      <h5 class="trans mb-0 h6 font-weight-bold text-truncate d-flex align-items-center"><img class="mr-2" src="img/group.svg" alt="group" width="20" height="20"> Mayoq</h5>
+                      <time class="times flex-shrink-0" datetime="9:30">9:30 AM</time>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <p class=" trans d-block mb-0 h64 text-truncate">GIF</p>
+                      <span class="sms px-1 rounded-pill h6 mb-0">53</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-xxl nav-link rounded-0 p-2 w-100" data-toggle="pill" href="#pills-home" aria-controls="pills-home" aria-selected="true">
+                <div class="media align-items-center">
+                  <img src="img/mayoq-hub.jpg" class="rounded-pill mr-2" alt="mayoq hub" width="50" height="50">
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mb-1 w-100">
+                      <h5 class="trans mb-0 h6 font-weight-bold text-truncate d-flex align-items-center"><img class="mr-2" src="img/group.svg" alt="group" width="20" height="20"> Mayoq</h5>
+                      <time class="times flex-shrink-0" datetime="9:30">9:30 AM</time>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <p class=" trans d-block mb-0 h64 text-truncate">GIF</p>
+                      <span class="sms px-1 rounded-pill h6 mb-0">53</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-xxl nav-link rounded-0 p-2 w-100" data-toggle="pill" href="#pills-home" aria-controls="pills-home" aria-selected="true">
+                <div class="media align-items-center">
+                  <img src="img/mayoq-hub.jpg" class="rounded-pill mr-2" alt="mayoq hub" width="50" height="50">
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mb-1 w-100">
+                      <h5 class="trans mb-0 h6 font-weight-bold text-truncate d-flex align-items-center"><img class="mr-2" src="img/group.svg" alt="group" width="20" height="20"> Mayoq</h5>
+                      <time class="times flex-shrink-0" datetime="9:30">9:30 AM</time>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <p class=" trans d-block mb-0 h64 text-truncate">GIF</p>
+                      <span class="sms px-1 rounded-pill h6 mb-0">53</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-xxl nav-link rounded-0 p-2 w-100" data-toggle="pill" href="#pills-home" aria-controls="pills-home" aria-selected="true">
+                <div class="media align-items-center">
+                  <img src="img/mayoq-hub.jpg" class="rounded-pill mr-2" alt="mayoq hub" width="50" height="50">
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mb-1 w-100">
+                      <h5 class="trans mb-0 h6 font-weight-bold text-truncate d-flex align-items-center"><img class="mr-2" src="img/group.svg" alt="group" width="20" height="20"> Mayoq</h5>
+                      <time class="times flex-shrink-0" datetime="9:30">9:30 AM</time>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <p class=" trans d-block mb-0 h64 text-truncate">GIF</p>
+                      <span class="sms px-1 rounded-pill h6 mb-0">53</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-xxl nav-link rounded-0 p-2 w-100" data-toggle="pill" href="#pills-home" aria-controls="pills-home" aria-selected="true">
+                <div class="media align-items-center">
+                  <img src="img/mayoq-hub.jpg" class="rounded-pill mr-2" alt="mayoq hub" width="50" height="50">
+                  <div class="media-body">
+                    <div class="d-flex align-items-center justify-content-between mb-1 w-100">
+                      <h5 class="trans mb-0 h6 font-weight-bold text-truncate d-flex align-items-center"><img class="mr-2" src="img/group.svg" alt="group" width="20" height="20"> Mayoq</h5>
+                      <time class="times flex-shrink-0" datetime="9:30">9:30 AM</time>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <p class=" trans d-block mb-0 h64 text-truncate">GIF</p>
+                      <span class="sms px-1 rounded-pill h6 mb-0">53</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-7 col-lg-6 bg-white vh-100 overflow-hidden">
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active h-100" id="pills-home" role="tabpanel">
+            <div class="py-1 overflow-hidden">
+              <div class="d-flex align-items-center">
+                <a class="d-flex flex-column align-items-start text-decoration-none px-3 py-1 w-100" href="#mainHeaderFirstModal" data-toggle="modal">
+                  <h3 class="mb-1 text-dark h6 font-weight-bold">Mayoq</h3>
+                  <span class="h6 text-secondary mb-0">7 K members</span>
+                </a>
+                <button id="btn-search" class="btn px-2">
+                  <img src="img/search.svg" alt="search-icon" width="30" height="30">
+                </button>
+                <button type="button" class="btn px-2" data-toggle="modal" data-target="#mainHeaderAudioChat">
+                  <img src="img/audio-chat.svg" alt="chat audio" width="30" height="30">
+                </button>
+                <button type="button" class="btn px-2" data-toggle="modal" data-target="#exampleModal">
+                  <img src="img/icon-sizer.svg" alt="chat audio" width="25" height="25">
+                </button>
+                <button type="button" class="btn px-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="img/ic-more.svg" alt="chat audio" width="30" height="30">
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                  <button class="dropdown-item" type="button">View group info</button>
+                  <button class="dropdown-item" type="button">Enable notification</button>
+                  <button class="dropdown-item" type="button">Manage group</button>
+                  <button class="dropdown-item" type="button">Add mambers</button>
+                  <button class="dropdown-item" type="button">Export chat history</button>
+                  <button class="dropdown-item" type="button">Leave grop</button>
+                  <button class="dropdown-item" type="button">Clear history</button>
+                  <button class="dropdown-item" type="button">Report</button>
+                </div>
+
+                <div class="modal fade" id="mainHeaderFirstModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content bg-light">
+                      <div class="modal-header bg-white mb-2 flex-column">
+                        <div class=" d-flex align-items-center w-100 mb-3">
+                          <h5 class="modal-title w-100 h6" id="exampleModalLabel">User Info</h5>
+                          <button type="button" class="btn p-1" data-toggle="modal" data-target="#exampleModal">
+                            <img src="img/call.svg" alt="chat audio" width="20" height="20">
+                          </button>
+                          <button type="button" class="btn p-1" data-toggle="modal" data-target="#exampleModal">
+                            <img src="img/ic-more.svg" alt="chat audio" width="20" height="20">
+                          </button>
+                          <button type="button" class="close p-1 d-block mr-0" data-dismiss="modal" aria-label="Close">
+                            <span class="" aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img class="rounded-pill d-block mr-3" src="img/muhammadjavohir.jpg" alt="muhammadjavohir" width="80" height="80">
+                          <div class="d-flex flex-column align-items-start">
+                            <h5 class="mb-0 font-weight-bold h6 text-dark">Muhammadjavohir</h5>
+                            <span class="text-secondary">last seen recently</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-body p-0">
+                        <div class="mb-2 bg-white shadow-sm">
+                          <div class="d-flex align-items-center py-2 px-3">
+                            <img class="mr-3" src="img/mode.svg" alt="undo" width="30" height="30">
+                            <div class="d-flex flex-column align-items-start">
+                              <p class="text-dark mb-2 h6">+998 97 7777777</p>
+                              <span class="text-secondary h6 mb-0">Mobile</span>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center py-2 px-3">
+                            <span class="m-3"></span>
+                            <div class="d-flex flex-column align-items-start ml-3">
+                              <p class="text-dark mb-1 h6">@muhammadjawel</p>
+                              <span class="text-secondary h6 mb-0">Username</span>
+                            </div>
+                          </div>
+                          <a class="text-decoration-none py-2 ml-4 btn w-100 mb-3 text-left text-primary" href="#">
+                            <span class="ml-4">ADD TO CONTACTS</span>
+                          </a>
+                          <div class="d-flex align-items-center py-2 px-3 mb-3">
+                            <img class="mr-3" src="img/notifications.svg" alt="undo" width="30" height="30">
+                            <div class="d-flex align-items-center justify-content-between w-100" for="nott">
+                              <p class="text-dark mb-0 h6">Notification</p>
+                              <span class="custom-control custom-switch">
+                                <input type="checkbox" class="custom-control-input" id="nott">
+                                <label class="custom-control-label" for="nott" ></label>
+                              </span>
+                            </div>
+                          </div>
+
+                        </div>
+                        <div class="bg-white shadow-sm mb-2">
+                          <a class="d-flex align-items-center btn px-3 mb-2" href="#">
+                            <img class="mr-3 d-block" src="img/photo-in.svg" alt="group in" width="30" height="30">
+                            <span>11 photos</span>
+                          </a>
+                          <a class="d-flex align-items-center btn px-3 mb-2" href="#">
+                            <img class="mr-3 d-block" src="img/file-in.svg" alt="group in" width="30" height="30">
+                            <span>21 files</span>
+                          </a>
+                          <a class="d-flex align-items-center btn px-3 mb-2" href="#">
+                            <img class="mr-3 d-block" src="img/link-share.svg" alt="group in" width="30" height="30">
+                            <span>13 shared links</span>
+                          </a>
+                          <a class="d-flex align-items-center btn px-3 mb-2" href="#">
+                            <img class="mr-3 d-block" src="img/micrafon.svg" alt="group in" width="30" height="30">
+                            <span>114 voice massage</span>
+                          </a>
+                          <a class="d-flex align-items-center btn px-3" href="#">
+                            <img class="mr-3 d-block" src="img/person.svg" alt="group in" width="30" height="30">
+                            <span>4 group in common</span>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div class="modal-footer bg-white p-0 d-flex flex-column align-items-start shadow-sm w-100">
+                        <a class="d-flex align-items-center btn px-3 mb-1 w-100" href="#">
+                          <img class="mr-3 d-block" src="img/menu-in-user.svg" alt="group in" width="30" height="30">
+                          <span>Share this contact</span>
+                        </a>
+                        <a class="d-flex align-items-center btn px-3 mb-1 w-100" href="#">
+                          <span class="m-3"></span>
+                          <span class="ml-3">Edit contact</span>
+                        </a>
+                        <a class="d-flex align-items-center btn px-3 mb-1 w-100" href="#">
+                          <span class="m-3"></span>
+                          <span class="ml-3">Delete contact</span>
+                        </a>
+                        <a class="d-flex align-items-center btn px-3 mb-1 w-100" href="#">
+                          <span class="m-3"></span>
+                          <span class="ml-3">Clear history</span>
+                        </a>
+                        <a class="d-flex align-items-center btn px-3 mb-1 w-100" href="#">
+                          <span class="m-3"></span>
+                          <span class="ml-3">Delete chat</span>
+                        </a>
+                        <a class="d-flex align-items-center btn px-3 w-100" href="#">
+                          <span class="m-3"></span>
+                          <span class="text-danger ml-3">Block user</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade overflow-hidden" id="mainHeaderAudioChat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content bg-light">
+                      <div class="modal-header bg-white border-0">
+                        <h5 class="mb-0">Start Voice Chat at...</h5>
+                      </div>
+                      <div class="modal-body border-0 bg-white p-0">
+                        <p class="mb-3 px-3">Coose whether you want to be displayed as your personal account or as your channel.</p>
+                        <ul class="d-flex flex-column list-unstyled overflow-auto px-3" style="height: 65vh;">
+                          <li class="mb-3">
+                            <button class="btn d-flex align-items-center p-0">
+                              <img class="rounded-pill mr-2" src="img/muhammadjavohir.jpg" alt="muhammadjavohir" width="50" height="50">
+                              <span class="d-flex flex-column align-items-start">
+                                <span class="mb-1 text-dark h6">Muhammadjavohir Sur'atov</span>
+                                <p class="mb-0 text-secondary">personal account</p>
+                              </span>
+                            </button>
+                          </li>
+                          <li class="mb-3">
+                            <button class="btn d-flex align-items-center p-0">
+                              <img class="rounded-pill mr-2" src="img/mayoq-hub.jpg" alt="muhammadjavohir" width="50" height="50">
+                              <p class="d-flex flex-column align-items-start">
+                                <h6 class="mb-1 text-dark">Mayoq</h6>
+                                <p class="mb-0 text-secondary">5302 subscribers</p>
+                              </p>
+                            </button>
+                          </li>
+                          <li class="mb-3">
+                            <button class="btn d-flex align-items-center p-0">
+                              <img class="rounded-pill mr-2" src="img/mayoq-hub.jpg" alt="muhammadjavohir" width="50" height="50">
+                              <span class="d-flex flex-column align-items-start">
+                                <h6 class="mb-1 text-dark">Mayoq</h6>
+                                <p class="mb-0 text-secondary">5302 subscribers</p>
+                              </span>
+                            </button>
+                          </li>
+                          <li class="mb-3">
+                            <button class="btn d-flex align-items-center p-0">
+                              <img class="rounded-pill mr-2" src="img/mayoq-hub.jpg" alt="muhammadjavohir" width="50" height="50">
+                              <span class="d-flex flex-column align-items-start">
+                                <h6 class="mb-1 text-dark">Mayoq</h6>
+                                <p class="mb-0 text-secondary">5302 subscribers</p>
+                              </span>
+                            </button>
+                          </li>
+                          <li class="mb-3">
+                            <button class="btn d-flex align-items-center p-0">
+                              <img class="rounded-pill mr-2" src="img/mayoq-hub.jpg" alt="muhammadjavohir" width="50" height="50">
+                              <span class="d-flex flex-column align-items-start">
+                                <h6 class="mb-1 text-dark">Mayoq</h6>
+                                <p class="mb-0 text-secondary">5302 subscribers</p>
+                              </span>
+                            </button>
+                          </li>
+                          <li class="mb-3">
+                            <button class="btn d-flex align-items-center p-0">
+                              <img class="rounded-pill mr-2" src="img/mayoq-hub.jpg" alt="muhammadjavohir" width="50" height="50">
+                              <span class="d-flex flex-column align-items-start">
+                                <h6 class="mb-1 text-dark">Mayoq</h6>
+                                <p class="mb-0 text-secondary">5302 subscribers</p>
+                              </span>
+                            </button>
+                          </li>
+                          <li class="mb-3">
+                            <button class="btn d-flex align-items-center p-0">
+                              <img class="rounded-pill mr-2" src="img/mayoq-hub.jpg" alt="muhammadjavohir" width="50" height="50">
+                              <span class="d-flex flex-column align-items-start">
+                                <h6 class="mb-1 text-dark">Mayoq</h6>
+                                <p class="mb-0 text-secondary">5302 subscribers</p>
+                              </span>
+                            </button>
+                          </li>
+                          <li class="mb-3">
+                            <button class="btn d-flex align-items-center p-0">
+                              <img class="rounded-pill mr-2" src="img/mayoq-hub.jpg" alt="muhammadjavohir" width="50" height="50">
+                              <span class="d-flex flex-column align-items-start">
+                                <h6 class="mb-1 text-dark">Mayoq</h6>
+                                <p class="mb-0 text-secondary">5302 subscribers</p>
+                              </span>
+                            </button>
+                          </li>
+                          <li class="mb-3">
+                            <button class="btn d-flex align-items-center p-0">
+                              <img class="rounded-pill mr-2" src="img/mayoq-hub.jpg" alt="muhammadjavohir" width="50" height="50">
+                              <span class="d-flex flex-column align-items-start">
+                                <h6 class="mb-1 text-dark">Mayoq</h6>
+                                <p class="mb-0 text-secondary">5302 subscribers</p>
+                              </span>
+                            </button>
+                          </li>
+                          <li class="mb-3">
+                            <button class="btn d-flex align-items-center p-0">
+                              <img class="rounded-pill mr-2" src="img/mayoq-hub.jpg" alt="muhammadjavohir" width="50" height="50">
+                              <span class="d-flex flex-column align-items-start">
+                                <h6 class="mb-1 text-dark">Mayoq</h6>
+                                <p class="mb-0 text-secondary">5302 subscribers</p>
+                              </span>
+                            </button>
+                          </li>
+                          <li class="mb-3">
+                            <button class="btn d-flex align-items-center p-0">
+                              <img class="rounded-pill mr-2" src="img/mayoq-hub.jpg" alt="muhammadjavohir" width="50" height="50">
+                              <span class="d-flex flex-column align-items-start">
+                                <h6 class="mb-1 text-dark">Mayoq</h6>
+                                <p class="mb-0 text-secondary">5302 subscribers</p>
+                              </span>
+                            </button>
+                          </li>
+                          <li class="mb-3">
+                            <button class="btn d-flex align-items-center p-0">
+                              <img class="rounded-pill mr-2" src="img/mayoq-hub.jpg" alt="muhammadjavohir" width="50" height="50">
+                              <span class="d-flex flex-column align-items-start">
+                                <h6 class="mb-1 text-dark">Mayoq</h6>
+                                <p class="mb-0 text-secondary">5302 subscribers</p>
+                              </span>
+                            </button>
+                          </li>
+                          <li class="mb-3">
+                            <button class="btn d-flex align-items-center p-0">
+                              <img class="rounded-pill mr-2" src="img/mayoq-hub.jpg" alt="muhammadjavohir" width="50" height="50">
+                              <span class="d-flex flex-column align-items-start">
+                                <h6 class="mb-1 text-dark">Mayoq</h6>
+                                <p class="mb-0 text-secondary">5302 subscribers</p>
+                              </span>
+                            </button>
+                          </li>
+                          <li class="mb-3">
+                            <button class="btn d-flex align-items-center p-0">
+                              <img class="rounded-pill mr-2" src="img/mayoq-hub.jpg" alt="muhammadjavohir" width="50" height="50">
+                              <span class="d-flex flex-column align-items-start">
+                                <h6 class="mb-1 text-dark">Mayoq</h6>
+                                <p class="mb-0 text-secondary">5302 subscribers</p>
+                              </span>
+                            </button>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer border-0 bg-white">
+                        <button type="button" class="btn btn-primary px-3 py-2" data-dismiss="modal">
+                          Close
+                        </button>
+                        <button type="button" class="btn btn-primary px-3 py-2">Continue</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                
+              </div>
+            </div>
+            <div class="" >
+              <div class="d-flex ">
+                <a class="bg-white text-decoration-none text-dark px-3 py-2 w-100 d-flex align-items-center justify-content-between" href="#pins">
+                  <div class="d-flex flex-column align-items-start text-truncate">
+                    <h6 class="mb-1 font-weight-bold text-primary">Pinned massage</h6>
+                    <p class="mb-0 text-truncate w-100">bugungi darslarda kelmaganlar soni kopayib kettdi shuning uchun ularni imtihonga kirgizmay chopamiz. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit deleniti nesciunt repudiandae reprehenderit qui illum earum dolorum excepturi cumque itaque, blanditiis eligendi sit adipisci tempora labore atque consectetur maiores ex.</p>
+                  </div>
+                  <img src="img/pins.svg" alt="pin massage" width="25" 
+                  height="25">
+                </a>
+              </div>
+              <div class="p-2" style="overflow-y: auto; height: 80vh; background-image: url(https://picsum.photos/800); background-repeat: no-repeat; background-position: center; background-size: cover;">
+                
+                <div class="chat d-flex py-2 align-items-end">
+                  <img class="rounded-pill mr-2" src="img/muhammadjavohir.jpg" alt="muhammadjavohir" width="40" height="40">
+                  <div class="massagesin d-flex flex-column align-items-start p-2 rounded-lg position-relative">
+                    <h6 class="mb-1 text-danger">Muhammadjavohir</h6>
+                    <div class="">
+                      <p class="mb-4">Assalomu alaykum. Samandar</p>
+                      <span class="d-flex align-items-center position-absolute" style="bottom: 0; right: 0px;">
+                        14:05
+                        <img src="img/check2.svg" alt="check" width="30" height="20">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat d-flex py-2 align-items-end">
+                  <img class="rounded-pill mr-2" src="img/samandar.jpg" alt="samandar" width="40" height="40">
+                  <div class="massagesin d-flex flex-column align-items-start p-2 rounded-lg position-relative">
+                    <h6 class="mb-1 text-danger">Samandar</h6>
+                    <div class="">
+                      <p class="mb-4">Ho'p boladi ustoz salom</p>
+                      <span class="d-flex align-items-center position-absolute" style="bottom: 0; right: 0px;">
+                        14:05
+                        <img src="img/check2.svg" alt="check" width="30" height="20">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat d-flex py-2 align-items-end">
+                  <img class="rounded-pill mr-2" src="img/muhammadjavohir.jpg" alt="muhammadjavohir" width="40" height="40">
+                  <div class="massagesin d-flex flex-column align-items-start p-2 rounded-lg position-relative">
+                    <h6 class="mb-1 text-danger">Muhammadjavohir</h6>
+                    <div class="">
+                      <p class="mb-4">Material icons yoki IcoMoondan topish mumkin</p>
+                      <span class="d-flex align-items-center position-absolute" style="bottom: 0; right: 0px;">
+                        14:05
+                        <img src="img/check2.svg" alt="check" width="30" height="20">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat d-flex py-2 align-items-end">
+                  <img class="rounded-pill mr-2" src="img/samandar.jpg" alt="samandar" width="40" height="40">
+                  <div class="massagesin d-flex flex-column align-items-start p-2 rounded-lg position-relative">
+                    <h6 class="mb-1 text-danger">Samandar</h6>
+                    <div class="">
+                      <p class="mb-4">Ustoz telegramning deksktop ikonlarini topishda muammolar bo'lyapti, nima maslahat berasiz?</p>
+                      <span class="d-flex align-items-center position-absolute" style="bottom: 0; right: 0px;">
+                        14:05
+                        <img src="img/check2.svg" alt="check" width="30" height="20">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat d-flex py-2 align-items-end">
+                  <img class="rounded-pill mr-2" src="img/muhammadjavohir.jpg" alt="muhammadjavohir" width="40" height="40">
+                  <div class="massagesin d-flex flex-column align-items-start p-2 rounded-lg position-relative">
+                    <h6 class="mb-1 text-danger">Muhammadjavohir</h6>
+                    <div class="">
+                      <p class="mb-4">ma'lumotlarini yoki guruhga, yoki o'quvchilarga shaxsiy xabardan yuborib qo'yinglar</p>
+                      <span class="d-flex align-items-center position-absolute" style="bottom: 0; right: 0px;">
+                        14:05
+                        <img src="img/check2.svg" alt="check" width="30" height="20">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat d-flex py-2 align-items-end">
+                  <img class="rounded-pill mr-2" src="img/samandar.jpg" alt="samandar" width="40" height="40">
+                  <div class="massagesin d-flex flex-column align-items-start p-2 rounded-lg position-relative">
+                    <h6 class="mb-1 text-danger">Samandar</h6>
+                    <div class="">
+                      <p class="mb-4">Katta rahmat </p>
+                      <span class="d-flex align-items-center position-absolute" style="bottom: 0; right: 0px;">
+                        14:05
+                        <img src="img/check2.svg" alt="check" width="30" height="20">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat d-flex py-2 align-items-end">
+                  <img class="rounded-pill mr-2" src="img/muhammadjavohir.jpg" alt="muhammadjavohir" width="40" height="40">
+                  <div class="massagesin d-flex flex-column align-items-start p-2 rounded-lg position-relative">
+                    <h6 class="mb-1 text-danger">Muhammadjavohir</h6>
+                    <div class="">
+                      <p class="mb-4">Shaxsiyligiga yuborib qo'ydim</p>
+                      <span class="d-flex align-items-center position-absolute" style="bottom: 0; right: 0px;">
+                        14:05
+                        <img src="img/check2.svg" alt="check" width="30" height="20">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat d-flex py-2 align-items-end">
+                  <img class="rounded-pill mr-2" src="img/samandar.jpg" alt="samandar" width="40" height="40">
+                  <div class="massagesin d-flex flex-column align-items-start p-2 rounded-lg position-relative">
+                    <h6 class="mb-1 text-danger">Samandar</h6>
+                    <div class="">
+                      <p class="mb-4">Rahmat 👍</p>
+                      <span class="d-flex align-items-center position-absolute" style="bottom: 0; right: 0px;">
+                        14:05
+                        <img src="img/check2.svg" alt="check" width="30" height="20">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat d-flex py-2 align-items-end">
+                  <img class="rounded-pill mr-2" src="img/muhammadjavohir.jpg" alt="muhammadjavohir" width="40" height="40">
+                  <div class="massagesin d-flex flex-column align-items-start p-2 rounded-lg position-relative">
+                    <h6 class="mb-1 text-danger">Muhammadjavohir</h6>
+                    <div class="">
+                      <p class="mb-4">Ha</p>
+                      <span class="d-flex align-items-center position-absolute" style="bottom: 0; right: 0px;">
+                        14:05
+                        <img src="img/check2.svg" alt="check" width="30" height="20">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat d-flex py-2 align-items-end">
+                  <img class="rounded-pill mr-2" src="img/samandar.jpg" alt="samandar" width="40" height="40">
+                  <div class="massagesin d-flex flex-column align-items-start p-2 rounded-lg position-relative">
+                    <h6 class="mb-1 text-danger">Samandar</h6>
+                    <div class="">
+                      <p class="mb-4">Ustoz, shu qismini ham qilish kerakmi?</p>
+                      <span class="d-flex align-items-center position-absolute" style="bottom: 0; right: 0px;">
+                        14:05
+                        <img src="img/check2.svg" alt="check" width="30" height="20">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat d-flex py-2 align-items-end">
+                  <img class="rounded-pill mr-2" src="img/muhammadjavohir.jpg" alt="muhammadjavohir" width="40" height="40">
+                  <div class="massagesin d-flex flex-column align-items-start p-2 rounded-lg position-relative">
+                    <h6 class="mb-1 text-danger">Muhammadjavohir</h6>
+                    <div class="">
+                      <p class="mb-4">79-dars - 19.08.2021
+
+                        Bootstrap 4 dan Imtihon
+                        1. Chatlar - 19.08.2021 - 15:00-15:15 ZIP
+                        - oddiy chat, kanal, bot, guruh
+                        2. Chat - 20.08.2021 - 16:00-16:15 ZIP
+                        3. Emoji/stickerlar - 21.08.2021 - 18:00-18:15 GitHub/Netlify</p>
+                      <span class="d-flex align-items-center position-absolute" style="bottom: 0; right: 0px;">
+                        14:05
+                        <img src="img/check2.svg" alt="check" width="30" height="20">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat d-flex py-2 align-items-end">
+                  <img class="rounded-pill mr-2" src="img/samandar.jpg" alt="samandar" width="40" height="40">
+                  <div class="massagesin d-flex flex-column align-items-start p-2 rounded-lg position-relative">
+                    <h6 class="mb-1 text-danger">Samandar</h6>
+                    <div class="">
+                      <p class="mb-4">Aha, rahmat</p>
+                      <span class="d-flex align-items-center position-absolute" style="bottom: 0; right: 0px;">
+                        14:05
+                        <img src="img/check2.svg" alt="check" width="30" height="20">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat d-flex py-2 align-items-end">
+                  <img class="rounded-pill mr-2" src="img/muhammadjavohir.jpg" alt="muhammadjavohir" width="40" height="40">
+                  <div class="massagesin d-flex flex-column align-items-start p-2 rounded-lg position-relative">
+                    <h6 class="mb-1 text-danger">Muhammadjavohir</h6>
+                    <div class="">
+                      <p class="mb-4">Assalomu alaykum. Uzr, 15 daqiqalarga kech qolyapman. Imtihon uchun starter papka va reponi tayyorlab qo'yib turinglar.</p>
+                      <span class="d-flex align-items-center position-absolute" style="bottom: 0; right: 0px;">
+                        14:05
+                        <img src="img/check2.svg" alt="check" width="30" height="20">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat d-flex py-2 align-items-end">
+                  <img class="rounded-pill mr-2" src="img/samandar.jpg" alt="samandar" width="40" height="40">
+                  <div class="massagesin d-flex flex-column align-items-start p-2 rounded-lg position-relative">
+                    <h6 class="mb-1 text-danger">Samandar</h6>
+                    <div class="">
+                      <p class="mb-4">Imtihonni jo'natishda git'dan foydalanamizmi yoki zip'dan</p>
+                      <span class="d-flex align-items-center position-absolute" style="bottom: 0; right: 0px;">
+                        14:05
+                        <img src="img/check2.svg" alt="check" width="30" height="20">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                
+                
+                
+              </div>
+    
+            </div>
+          
+            <div class="w-100 d-flex align-items-center">
+              <form class="d-flex align-items-center w-100" action="https://echo.htmlacademy.ru" method="POST">
+                <label class="position-relative btn mb-0"  style="width: 50px; height: 50px;">
+                  <input class="form-control bg-transparent border-0 p-2 sr-only" type="file" name="search-main">
+                  <span class="position-absolute" style="left: 12px; top: 13px;">
+                    <img src="img/icon-pin-file.svg" alt="pin" width="25" height="25">
+                  </span>
+                </label>
+                <label class="mb-0 w-100">
+                  <input id="text-input" class="form-control bg-transparent border-0 p-2" type="text" name="write" placeholder="Write a massage..." >
+                </label>
+                <button type="button" class="btn px-2" data-toggle="modal" data-target="#exampleModal">
+                  <img src="img/smile.svg" alt="chat audio" width="30" height="30">
+                </button>
+                <a id="btn-record" class="btn" href="#">
+                  <img src="img/micrafon.svg" alt="micrafon" width="30" height="30">
+                </a>
+                <a id="btn-send" class="btn" href="#">
+                  <img src="img/send-massage.png" alt="micrafon" width="30" height="30">
+                </a>
+              </form>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel">...</div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel">...</div>
+        </div>
+      </div>
+
+      <div class="col-0 col-lg-3 bg-white">
+        <nav>
+          <div class="nav nav-tabs">
+            <a class="nav-link active flex-grow-1 text-center text-secondary py-3 border-0 border-bottom" data-toggle="tab" href="#emoji" aria-selected="true">EMOJI</a>
+            <a class="flex-grow-1 text-center nav-link text-secondary py-3 border-0" data-toggle="tab" href="#stikers" aria-selected="false">STIKERS</a>
+            <a class="flex-grow-1 text-center nav-link text-secondary py-3 border-0" data-toggle="tab" href="#gifs" aria-selected="false">GIFS</a>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="emoji" style="height: 88vh;">
+            <div class="h-100 p-3 overflow-auto">
+              <div id="always" class="">
+                <ul class="list-unstyled row mb-0">
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😍</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥰</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😘</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😗</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😙</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😋</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😛</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😜</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🤪</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😎</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥸</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🤩</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥳</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😏</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😫</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😞</button>
+                  </li>
+                </ul>
+              </div>
+
+              <div id="people" class="">
+                <h6 class="mb-0 text-secondary py-3">People</h6>
+                <ul class="list-unstyled row mb-0">
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😍</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥰</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😘</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😗</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😙</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😋</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😛</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😜</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🤪</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😎</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥸</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🤩</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥳</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😏</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😫</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😞</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🤯</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥺</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😡</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🤬</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥶</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😶‍🌫️</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😱</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😨</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😥</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🤗</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥵</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🤥</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🤫</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🤭</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🤔</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🙄</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😯</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😵</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😬</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥱</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😨</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😥</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🤗</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥵</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🤥</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🤫</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🤭</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🤔</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🙄</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😯</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😵</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😬</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥱</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😯</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😵</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">😬</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥱</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🤗</button>
+                  </li>
+                </ul>
+              </div>
+
+              <div id="nature" class="">
+                <h6 class="mb-0 text-secondary py-3">Nature</h6>
+                <ul class="list-unstyled row mb-0">
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🐶</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🐶</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🐶</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🐶</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🐶</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🐶</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🐶</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🐶</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🐶</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🐶</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🐶</button>
+                  </li>
+                </ul>
+              </div>
+
+              <div id="food-drink" class="">
+                <h6 class="mb-0 text-secondary py-3">Food & Drink</h6>
+                <ul class="list-unstyled row mb-0">
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🍎</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🍊</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🍉</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥬</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥭</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🧀</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🫓</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥑</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥬</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥔</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🍠</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥥</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🍣</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🍿</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🍺</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥃</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥜</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🍶</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🍝</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🍚</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🍡</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥮</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🥯</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🧊</button>
+                  </li>
+                </ul>
+              </div>
+
+              <div id="activity" class="">
+                <h6 class="mb-0 text-secondary py-3">Activity</h6>
+                <ul class="list-unstyled row mb-0">
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">⏰</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🪓</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">⏰</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🪓</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">⏰</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🪓</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">⏰</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🪓</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">⏰</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🪓</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">⏰</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🪓</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">⏰</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🪓</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">⏰</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🪓</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">⏰</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🪓</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">⏰</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🪓</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">⏰</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🪓</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">⏰</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🪓</button>
+                  </li>
+                </ul>
+              </div>
+
+              <div id="travels" class="">
+                <h6 class="mb-0 text-secondary py-3">Travels & Places</h6>
+                Empty
+              </div>
+
+              <div id="objects" class="">
+                <h6 class="mb-0 text-secondary py-3">Objects</h6>
+                Epmty
+              </div>
+
+              <div id="flag" class="">
+                <h6 class="mb-0 text-secondary py-3">Symbols & Flags</h6>
+                <ul class="list-unstyled row mb-0">
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">☪️</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">❌</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">📳</button>
+                  </li>                 
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">📶</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🔤</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🔤</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">📶</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🔤</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">☪️</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">❌</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">📳</button>
+                  </li>                 
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">📶</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">🔤</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">❌</button>
+                  </li>
+                  <li class="col-2 text-center">
+                    <button class="bg-transparent h3 border-0">📳</button>
+                  </li>   
+                </ul>
+              </div>
+            </div>
+            
+            <div class="d-flex align-items-center w-100">
+              <a href="#always" class="text-decoration-none flex-grow-1 btn p-2"><img src="img/smile-light.svg" alt="smiles" width="30" height="30"></a>
+              <a href="#people" class="text-decoration-none flex-grow-1 btn p-2"><img src="img/smile-light.svg" alt="smiles" width="30" height="30"></a>
+              <a href="#nature" class="text-decoration-none flex-grow-1 btn"><img src="img/smile-light.svg" alt="smiles" width="30" height="30"></a>
+              <a href="#food-drink" class="text-decoration-none flex-grow-1 btn"><img src="img/smile-light.svg" alt="smiles" width="30" height="30"></a>
+              <a href="#activity" class="text-decoration-none flex-grow-1 btn"><img src="img/smile-light.svg" alt="smiles" width="30" height="30"></a>
+              <a href="#travels" class="text-decoration-none flex-grow-1 btn"><img src="img/smile-light.svg" alt="smiles" width="30" height="30"></a>
+              <a href="#objects" class="text-decoration-none flex-grow-1 btn"><img src="img/smile-light.svg" alt="smiles" width="30" height="30"></a>
+              <a href="#flag" class="text-decoration-none flex-grow-1 btn"><img src="img/smile-light.svg" alt="smiles" width="30" height="30"></a>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="stikers" style="height: 88vh;">
+            <div class="h-100 p-3 overflow-auto">
+              <div class="h-100 p-3 overflow-auto">
+                <div class="">
+                  <h6 id="birinchi" class="py-3">Birinchi</h6>
+                  <div class="row" id="t">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=111" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=211" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=311" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=411" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=511" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=611" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=711" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=81" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=91" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=101" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=114" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=124" alt="photo">
+                  </div>
+                  <h6 id="ikkinchi" class="py-3">Ikkinchi</h6>
+                  <div class="row" id="r">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=134" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=144" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=154" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=164" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=174" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=184" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=194" alt="photo">
+                  </div>
+                  <h6 id="uchinchi" class="py-3">Uchinchi</h6>
+                  <div class="row" id="e">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=204" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=218" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=228" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=238" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=248" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=258" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=268" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=278" alt="photo">
+                    <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=288" alt="photo">
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="d-flex align-items-center w-100">
+              <button class="btn" type="button" id="search-btn-open"> 
+                <img src="img/search.svg" alt="search stikers" width="30" height="30">
+              </button>
+              <div class="w-100" id="searchs-stikers">
+                <form class="w-100 d-flex align-items-center" action="https://echo.htmlacademy.ru" method="GET">
+                    <input id="search-stikers" class="form-control bg-white border-0 p-3 flex-grow-1" type="search" name="search-stikers" placeholder="Search stiker sets">
+                    <button id="search-btn-close" type="button" class="close p-2 pr-3">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </form>
+              </div>
+              <div id="stikers-show" class="w-100">
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="">
+                    <a href="#birinchi" class="text-decoration-none btn"><img src="img/smile-light.svg" alt="smiles" width="30" height="30"></a>
+                    <a href="#ikkinchi" class="text-decoration-none btn"><img src="img/smile-light.svg" alt="smiles" width="30" height="30"></a>
+                    <a href="#uchinchi" class="text-decoration-none btn"><img src="img/smile-light.svg" alt="smiles" width="30" height="30"></a>
+                  </div>
+                  <button class="btn" type="button" data-toggle="modal" data-target="#settings-modal">
+                    <img src="img/settings.svg" alt="settings" width="30" height="30">
+                  </button>
+
+                  <div class="modal fade" id="settings-modal" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content  flex-grow-1 d-flex flex-column justify-content-between" style="height: 500px;">
+                        <div class="modal-header border-0">
+                          <nav>
+                            <div class="nav nav-tabs">
+                              <a class="nav-link active flex-grow-1 text-center text-secondary py-3 border-0 border-bottom" data-toggle="tab" href="#stickers-modal" aria-selected="true">STICKERS</a>
+                              <a class="flex-grow-1 text-center nav-link text-secondary py-3 border-0" data-toggle="tab" href="#trending-modal" aria-selected="false">TRENDING</a>
+                            </div>
+                          </nav>
+                        </div>
+                        <div class="modal-body border-0 flex-grow-1 h-100">
+                          <div class="tab-content">
+                            <div class="tab-pane fade show active" id="stickers-modal">
+                              <div class="d-flex mb-3">
+                                <button class="btn" type="button">
+                                  <img src="img/hamburger.svg" alt="menu" width="30" height="30">
+                                </button>
+                                <div class="d-flex align-items-center flex-grow-1">
+                                  <img class="mr-3" src="img/mayoq-hub.jpg" alt="stiskers" width="50" height="50">
+                                  <div class="d-flex flex-column align-items-start">
+                                    <h6>Mayoq Hub</h6>
+                                    <span class="text-secondary">30 stickers</span>
+                                  </div>
+                                </div>
+                                <button class="btn" type="button">
+                                  <img class="ml-3" src="img/pins.svg" alt="delete" width="30" height="30">
+                                </button>
+                              </div>
+                              <div class="d-flex mb-3">
+                                <button class="btn" type="button">
+                                  <img src="img/hamburger.svg" alt="menu" width="30" height="30">
+                                </button>
+                                <div class="d-flex align-items-center flex-grow-1">
+                                  <img class="mr-3" src="img/mayoq-hub.jpg" alt="stiskers" width="50" height="50">
+                                  <div class="d-flex flex-column align-items-start">
+                                    <h6>Mayoq Hub</h6>
+                                    <span class="text-secondary">70 stickers</span>
+                                  </div>
+                                </div>
+                                <button class="btn" type="button">
+                                  <img class="ml-3" src="img/pins.svg" alt="delete" width="30" height="30">
+                                </button>
+                              </div>
+                              <div class="d-flex mb-3">
+                                <button class="btn" type="button">
+                                  <img src="img/hamburger.svg" alt="menu" width="30" height="30">
+                                </button>
+                                <div class="d-flex align-items-center flex-grow-1">
+                                  <img class="mr-3" src="img/mayoq-hub.jpg" alt="stiskers" width="50" height="50">
+                                  <div class="d-flex flex-column align-items-start">
+                                    <h6>Mayoq Hub</h6>
+                                    <span class="text-secondary">50 stickers</span>
+                                  </div>
+                                </div>
+                                <button class="btn" type="button">
+                                  <img class="ml-3" src="img/pins.svg" alt="delete" width="30" height="30">
+                                </button>
+                              </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="trending-modal">
+                              <div class="d-flex mb-2">
+                                <div class="d-flex align-items-center flex-grow-1">
+                                  <img class="mr-3" src="img/muhammadjavohir.jpg" alt="stiskers" width="50" height="50">
+                                  <div class="d-flex flex-column align-items-start">
+                                    <h6>Mayoq Hub</h6>
+                                    <span class="text-secondary">30 stickers</span>
+                                  </div>
+                                </div>
+                                <button class="btn btn-primary py-1" type="button">
+                                  Add
+                                </button>
+                              </div>
+                              <div class="d-flex mb-2">
+                                <div class="d-flex align-items-center flex-grow-1">
+                                  <img class="mr-3" src="img/muhammadjavohir.jpg" alt="stiskers" width="50" height="50">
+                                  <div class="d-flex flex-column align-items-start">
+                                    <h6>Mayoq Hub</h6>
+                                    <span class="text-secondary">30 stickers</span>
+                                  </div>
+                                </div>
+                                <button class="btn btn-primary py-1" type="button">
+                                  Add
+                                </button>
+                              </div>
+                              <div class="d-flex mb-2">
+                                <div class="d-flex align-items-center flex-grow-1">
+                                  <img class="mr-3" src="img/muhammadjavohir.jpg" alt="stiskers" width="50" height="50">
+                                  <div class="d-flex flex-column align-items-start">
+                                    <h6>Mayoq Hub</h6>
+                                    <span class="text-secondary">30 stickers</span>
+                                  </div>
+                                </div>
+                                <button class="btn btn-primary py-1" type="button">
+                                  Add
+                                </button>
+                              </div>
+                              <div class="d-flex mb-2">
+                                <div class="d-flex align-items-center flex-grow-1">
+                                  <img class="mr-3" src="img/muhammadjavohir.jpg" alt="stiskers" width="50" height="50">
+                                  <div class="d-flex flex-column align-items-start">
+                                    <h6>Mayoq Hub</h6>
+                                    <span class="text-secondary">30 stickers</span>
+                                  </div>
+                                </div>
+                                <button class="btn btn-primary py-1" type="button">
+                                  Add
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer border-0">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Done</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="gifs" style="height: 88vh;">
+            <div class="h-100 p-3 overflow-auto">
+              <div class="row">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=1" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=2" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=3" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=4" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=5" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=6" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=7" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=8" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=9" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=10" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=11" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=12" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=13" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=14" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=15" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=16" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=17" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=18" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=19" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=20" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=21" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=22" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=23" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=24" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=25" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=26" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=27" alt="photo">
+                <img class="col-4 img-fluid mb-3" src="https://picsum.photos/300?random=28" alt="photo">
+              </div>
+            </div>
+            
+            <div class="d-flex align-items-center w-100 p-2">
+              <form class="w-100" action="https://echo.htmlacademy.ru" method="GET">
+                <label class="position-relative mb-0 w-100">
+                  <input id="search-gifs" class="form-control bg-white border-0 p-3 ml-5 w-75" type="search" name="search-gifs" placeholder="Search GIFs">
+                  <img class="position-absolute" src="img/search.svg" alt="search" width="30" height="30" style="top: 4px; left: 15px;">
+                </label>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+  </div>
 
 
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
