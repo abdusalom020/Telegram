@@ -108,6 +108,11 @@
   width: 100%;
 }
 
-/* .chat:nth-child(even) {
-  justify-content: flex-end;
-} */
+.menu-collapse {
+  transform: rotate(0);
+  transition: transform 0.4s ease;
+}
+
+.collapsed .menu-collapse {
+  transform: rotate(-180deg);
+}

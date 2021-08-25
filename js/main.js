@@ -28,5 +28,18 @@ $(function() {
     $("#searchs-stikers").hide();
     $("#stikers-show").show();
   });
+  
 })
 
+var password = 'abdusalom';
+var elPasword = document.querySelector('#lock-modal-password');
+var elBtnOpen = document.querySelector('#lock-modal-open');
+
+if (elBtnOpen > 0) {
+  elBtnOpen.addEventListener('click', function (evt) {
+    evt.preventDefault();
+    if (elPasword.value === password) {
+      
+    }
+  })
+}
